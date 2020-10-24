@@ -14,11 +14,11 @@ export class DataService {
 
   constructor(private http: HttpClient) {}
 
-  getData(): Observable<Object> {
+  getData(): Observable<object> {
     return this.http.get(this.url, { reportProgress: true });
   }
 
-  getDataRandom(): Observable<Object> {
+  getDataRandom(): Observable<object> {
     return this.http.get('what/is/this');
   }
 }

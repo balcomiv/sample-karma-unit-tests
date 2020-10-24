@@ -18,7 +18,7 @@ describe('DataService', () => {
     TestBed.configureTestingModule({
       imports: [HttpClientTestingModule],
     });
-    dataService = TestBed.inject(DataService);
+    dataService = TestBed.inject(DataService); // Get DataService. Don't forget, it was provided in root.
     httpTestingController = TestBed.inject(HttpTestingController);
   });
 
