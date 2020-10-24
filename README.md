@@ -2,26 +2,50 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
 
-## Development server
+# Helpful Unit Test Documentation Links
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- https://scriptverse.academy/tutorials/jasmine-spyon.html
 
-## Code scaffolding
+## Tutorial Links
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The same code base is actaully the same for two different tutorials. I'm going to see if there are any differences
 
-## Build
+https://app.pluralsight.com/course-player?clipId=a138fdcd-e7ba-41fd-876f-945e9ad9e49d
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+https://thinkster.io/tutorials/unit-testing-angular-like-a-boss-workshop/video-2
 
-## Running unit tests
+https://christianlydemann.com/all-you-need-to-know-about-mocking-in-angular-tests/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Helpful Links
 
-## Running end-to-end tests
+https://www.npmjs.com/package/jasmine-parameterized
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Spectator
 
-## Further help
+https://netbasal.gitbooks.io/spectator/content/services/testing-services.html
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Ng Mocks
+
+https://www.npmjs.com/package/ng-mocks
+
+https://netbasal.com/spectator-v4-a-powerful-tool-to-simplify-your-angular-tests-bd65a0bf317e
+
+https://github.com/ngneat/spectator
+
+## Ivy Issue With Schema Errors (unit test should fail if element unkown)
+
+https://github.com/angular/angular/issues/36430
+
+## Helpful Commands
+
+npx create-nx-workspace@latest
+
+ng add @nrwl/angular
+
+ng g s mocking/christian-lydemann/services/todo-list --project blog-articles --dry-run
+
+## Links for Documentation
+
+https://netbasal.com/testing-observables-in-angular-a2dbbfaf5329
+
+https://blog.eyas.sh/2018/12/data-and-page-content-refresh-patterns-in-angular/
